@@ -1,0 +1,25 @@
+{
+  "name": "todomvc-sample",
+  "description": "",
+  "main": "js/app.js",
+  "authors": [
+    "Taihoon Kim <kishu@navercorp.com>"
+  ],
+  "license": "MIT",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "^2.2.3",
+    "handlebars": "^4.0.5",
+    "lodash": "^4.11.2",
+    "todomvc-app-template": "*",
+    "mvc-sample": "./",
+    "director": "^1.2.8"
+  }
+}
